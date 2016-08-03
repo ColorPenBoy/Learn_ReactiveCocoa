@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    /* 链式编程 */
+    /* 链式编程 -> 代表作：Masonry */
     int result = [NSObject makeCalculate:^(CaculatorMaker *make) {
         make.add(1).add(2).add(3).add(4).divide(5);
     }];
@@ -32,7 +32,7 @@
     NSLog(@"链式编程 -> %d",result);
     
     
-    /* 函数式编程 */
+    /* 函数式编程 -> 代表作：ReactiveCocoa*/
     
     // 计算2* 5 = 10 并判断 是否与10相等
     Calculator *cal = [[Calculator alloc]init];

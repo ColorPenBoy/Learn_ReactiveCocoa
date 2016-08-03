@@ -9,24 +9,30 @@
 /* Begin PBXBuildFile section */
 		8ECA74131C06AF0000ECE0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA74121C06AF0000ECE0AE /* main.m */; };
 		8ECA74161C06AF0000ECE0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA74151C06AF0000ECE0AE /* AppDelegate.m */; };
-		8ECA74191C06AF0000ECE0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA74181C06AF0000ECE0AE /* ViewController.m */; };
 		8ECA741C1C06AF0000ECE0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA741A1C06AF0000ECE0AE /* Main.storyboard */; };
 		8ECA741E1C06AF0000ECE0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA741D1C06AF0000ECE0AE /* Assets.xcassets */; };
 		8ECA74211C06AF0000ECE0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA741F1C06AF0000ECE0AE /* LaunchScreen.storyboard */; };
 		8ECA742C1C06AF0000ECE0AE /* ZZReactiveCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA742B1C06AF0000ECE0AE /* ZZReactiveCocoaTests.m */; };
 		8ECA74371C06AF0000ECE0AE /* ZZReactiveCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA74361C06AF0000ECE0AE /* ZZReactiveCocoaUITests.m */; };
-		8ECA744C1C070A2000ECE0AE /* RACBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA744B1C070A2000ECE0AE /* RACBase.m */; };
-		8ECA744F1C070B7A00ECE0AE /* LoginSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA744E1C070B7A00ECE0AE /* LoginSuccessViewController.m */; };
-		8ECA74521C070D4700ECE0AE /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA74511C070D4700ECE0AE /* LoginViewModel.m */; };
 		8ECA74591C07179300ECE0AE /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA74571C07179300ECE0AE /* 001.png */; };
 		8ECA745A1C07179300ECE0AE /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA74581C07179300ECE0AE /* 003.png */; };
+		8EE14CA21D51F3D600751590 /* HXH_RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14CA11D51F3D600751590 /* HXH_RACSubject.m */; };
+		8EE14CA51D51F5AF00751590 /* HXH_RACTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14CA41D51F5AF00751590 /* HXH_RACTuple.m */; };
+		8EE14CA81D521F8D00751590 /* HXH_RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14CA71D521F8D00751590 /* HXH_RACCommand.m */; };
+		8EE14CAB1D52225800751590 /* HXH_RACMulticastConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14CAA1D52225800751590 /* HXH_RACMulticastConnection.m */; };
+		8EE14CAF1D5227A900751590 /* HXH_RACNormalUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE14CAE1D5227A900751590 /* HXH_RACNormalUse.m */; };
 		8EEF6E441D51CEFA00C59360 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEF6E421D51CEFA00C59360 /* libAFNetworking.a */; };
 		8EEF6E451D51CEFA00C59360 /* libPods-ZZReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEF6E431D51CEFA00C59360 /* libPods-ZZReactiveCocoa.a */; };
 		8EEF6E481D51CF0A00C59360 /* libReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEF6E461D51CF0A00C59360 /* libReactiveCocoa.a */; };
 		8EEF6E491D51CF0A00C59360 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEF6E471D51CF0A00C59360 /* libSDWebImage.a */; };
-		8EEF6E4C1D51CF6D00C59360 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E4B1D51CF6D00C59360 /* LoginViewController.m */; };
-		8EEF6E4F1D51D10B00C59360 /* RACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E4E1D51D10B00C59360 /* RACBaseViewController.m */; };
-		8EEF6E521D51D47300C59360 /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E511D51D47300C59360 /* DemoItem.m */; };
+		8EEF6E681D51EEA400C59360 /* RACBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E591D51EEA400C59360 /* RACBase.m */; };
+		8EEF6E691D51EEA400C59360 /* RACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E5B1D51EEA400C59360 /* RACBaseViewController.m */; };
+		8EEF6E6A1D51EEA400C59360 /* LoginSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E5E1D51EEA400C59360 /* LoginSuccessViewController.m */; };
+		8EEF6E6B1D51EEA400C59360 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E601D51EEA400C59360 /* LoginViewController.m */; };
+		8EEF6E6C1D51EEA400C59360 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E621D51EEA400C59360 /* LoginViewModel.m */; };
+		8EEF6E6D1D51EEA400C59360 /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E651D51EEA400C59360 /* DemoItem.m */; };
+		8EEF6E6E1D51EEA400C59360 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E671D51EEA400C59360 /* ViewController.m */; };
+		8EEF6E711D51EF8A00C59360 /* HXH_RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E701D51EF8A00C59360 /* HXH_RACSignal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +61,6 @@
 		8ECA74121C06AF0000ECE0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ECA74141C06AF0000ECE0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8ECA74151C06AF0000ECE0AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8ECA74171C06AF0000ECE0AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8ECA74181C06AF0000ECE0AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8ECA741B1C06AF0000ECE0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ECA741D1C06AF0000ECE0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECA74201C06AF0000ECE0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,14 +72,18 @@
 		8ECA74361C06AF0000ECE0AE /* ZZReactiveCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZReactiveCocoaUITests.m; sourceTree = "<group>"; };
 		8ECA74381C06AF0000ECE0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECA74451C06B5B600ECE0AE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		8ECA744A1C070A2000ECE0AE /* RACBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBase.h; sourceTree = "<group>"; };
-		8ECA744B1C070A2000ECE0AE /* RACBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBase.m; sourceTree = "<group>"; };
-		8ECA744D1C070B7A00ECE0AE /* LoginSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSuccessViewController.h; sourceTree = "<group>"; };
-		8ECA744E1C070B7A00ECE0AE /* LoginSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSuccessViewController.m; sourceTree = "<group>"; };
-		8ECA74501C070D4700ECE0AE /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		8ECA74511C070D4700ECE0AE /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		8ECA74571C07179300ECE0AE /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 		8ECA74581C07179300ECE0AE /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		8EE14CA01D51F3D600751590 /* HXH_RACSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACSubject.h; sourceTree = "<group>"; };
+		8EE14CA11D51F3D600751590 /* HXH_RACSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACSubject.m; sourceTree = "<group>"; };
+		8EE14CA31D51F5AF00751590 /* HXH_RACTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACTuple.h; sourceTree = "<group>"; };
+		8EE14CA41D51F5AF00751590 /* HXH_RACTuple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACTuple.m; sourceTree = "<group>"; };
+		8EE14CA61D521F8D00751590 /* HXH_RACCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACCommand.h; sourceTree = "<group>"; };
+		8EE14CA71D521F8D00751590 /* HXH_RACCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACCommand.m; sourceTree = "<group>"; };
+		8EE14CA91D52225800751590 /* HXH_RACMulticastConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACMulticastConnection.h; sourceTree = "<group>"; };
+		8EE14CAA1D52225800751590 /* HXH_RACMulticastConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACMulticastConnection.m; sourceTree = "<group>"; };
+		8EE14CAD1D5227A900751590 /* HXH_RACNormalUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACNormalUse.h; sourceTree = "<group>"; };
+		8EE14CAE1D5227A900751590 /* HXH_RACNormalUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACNormalUse.m; sourceTree = "<group>"; };
 		8EEF6E3C1D51CBA000C59360 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		8EEF6E3D1D51CBA000C59360 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
 		8EEF6E3E1D51CBA000C59360 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
@@ -83,12 +91,22 @@
 		8EEF6E431D51CEFA00C59360 /* libPods-ZZReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ZZReactiveCocoa.a"; path = "../../Library/Developer/Xcode/DerivedData/ZZReactiveCocoa-ggnnevhocppybxcnjjxigbbwwfqx/Build/Products/Debug-iphonesimulator/libPods-ZZReactiveCocoa.a"; sourceTree = "<group>"; };
 		8EEF6E461D51CF0A00C59360 /* libReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactiveCocoa.a; path = "../../Library/Developer/Xcode/DerivedData/ZZReactiveCocoa-ggnnevhocppybxcnjjxigbbwwfqx/Build/Products/Debug-iphonesimulator/ReactiveCocoa/libReactiveCocoa.a"; sourceTree = "<group>"; };
 		8EEF6E471D51CF0A00C59360 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/ZZReactiveCocoa-ggnnevhocppybxcnjjxigbbwwfqx/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
-		8EEF6E4A1D51CF6D00C59360 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		8EEF6E4B1D51CF6D00C59360 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		8EEF6E4D1D51D10B00C59360 /* RACBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseViewController.h; sourceTree = "<group>"; };
-		8EEF6E4E1D51D10B00C59360 /* RACBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseViewController.m; sourceTree = "<group>"; };
-		8EEF6E501D51D47300C59360 /* DemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItem.h; sourceTree = "<group>"; };
-		8EEF6E511D51D47300C59360 /* DemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItem.m; sourceTree = "<group>"; };
+		8EEF6E581D51EEA400C59360 /* RACBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBase.h; sourceTree = "<group>"; };
+		8EEF6E591D51EEA400C59360 /* RACBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBase.m; sourceTree = "<group>"; };
+		8EEF6E5A1D51EEA400C59360 /* RACBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseViewController.h; sourceTree = "<group>"; };
+		8EEF6E5B1D51EEA400C59360 /* RACBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseViewController.m; sourceTree = "<group>"; };
+		8EEF6E5D1D51EEA400C59360 /* LoginSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSuccessViewController.h; sourceTree = "<group>"; };
+		8EEF6E5E1D51EEA400C59360 /* LoginSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSuccessViewController.m; sourceTree = "<group>"; };
+		8EEF6E5F1D51EEA400C59360 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8EEF6E601D51EEA400C59360 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8EEF6E611D51EEA400C59360 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		8EEF6E621D51EEA400C59360 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		8EEF6E641D51EEA400C59360 /* DemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItem.h; sourceTree = "<group>"; };
+		8EEF6E651D51EEA400C59360 /* DemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItem.m; sourceTree = "<group>"; };
+		8EEF6E661D51EEA400C59360 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EEF6E671D51EEA400C59360 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EEF6E6F1D51EF8A00C59360 /* HXH_RACSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXH_RACSignal.h; sourceTree = "<group>"; };
+		8EEF6E701D51EF8A00C59360 /* HXH_RACSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXH_RACSignal.m; sourceTree = "<group>"; };
 		9CEBB91B65BE266FC7455A38 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C086CDAC21AC3A1049FBAE69 /* Pods_ZZReactiveCocoaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZReactiveCocoaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C711A24D8178DA3F02FED064 /* Pods_ZZReactiveCocoaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZReactiveCocoaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,20 +182,10 @@
 				8ECA74581C07179300ECE0AE /* 003.png */,
 				8ECA74141C06AF0000ECE0AE /* AppDelegate.h */,
 				8ECA74151C06AF0000ECE0AE /* AppDelegate.m */,
-				8ECA74171C06AF0000ECE0AE /* ViewController.h */,
-				8ECA74181C06AF0000ECE0AE /* ViewController.m */,
-				8EEF6E501D51D47300C59360 /* DemoItem.h */,
-				8EEF6E511D51D47300C59360 /* DemoItem.m */,
-				8EEF6E4D1D51D10B00C59360 /* RACBaseViewController.h */,
-				8EEF6E4E1D51D10B00C59360 /* RACBaseViewController.m */,
-				8EEF6E4A1D51CF6D00C59360 /* LoginViewController.h */,
-				8EEF6E4B1D51CF6D00C59360 /* LoginViewController.m */,
-				8ECA74501C070D4700ECE0AE /* LoginViewModel.h */,
-				8ECA74511C070D4700ECE0AE /* LoginViewModel.m */,
-				8ECA744D1C070B7A00ECE0AE /* LoginSuccessViewController.h */,
-				8ECA744E1C070B7A00ECE0AE /* LoginSuccessViewController.m */,
-				8ECA744A1C070A2000ECE0AE /* RACBase.h */,
-				8ECA744B1C070A2000ECE0AE /* RACBase.m */,
+				8EE14CAC1D52278800751590 /* RAC常见用法 */,
+				8EEF6E571D51EEA400C59360 /* RACBaseVC */,
+				8EEF6E5C1D51EEA400C59360 /* RACLoginVC */,
+				8EEF6E631D51EEA400C59360 /* RACRootVC */,
 				8ECA741A1C06AF0000ECE0AE /* Main.storyboard */,
 				8ECA741D1C06AF0000ECE0AE /* Assets.xcassets */,
 				8ECA741F1C06AF0000ECE0AE /* LaunchScreen.storyboard */,
@@ -212,6 +220,60 @@
 				8ECA74381C06AF0000ECE0AE /* Info.plist */,
 			);
 			path = ZZReactiveCocoaUITests;
+			sourceTree = "<group>";
+		};
+		8EE14CAC1D52278800751590 /* RAC常见用法 */ = {
+			isa = PBXGroup;
+			children = (
+				8EE14CAD1D5227A900751590 /* HXH_RACNormalUse.h */,
+				8EE14CAE1D5227A900751590 /* HXH_RACNormalUse.m */,
+			);
+			path = "RAC常见用法";
+			sourceTree = "<group>";
+		};
+		8EEF6E571D51EEA400C59360 /* RACBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF6E581D51EEA400C59360 /* RACBase.h */,
+				8EEF6E591D51EEA400C59360 /* RACBase.m */,
+				8EEF6E5A1D51EEA400C59360 /* RACBaseViewController.h */,
+				8EEF6E5B1D51EEA400C59360 /* RACBaseViewController.m */,
+				8EEF6E6F1D51EF8A00C59360 /* HXH_RACSignal.h */,
+				8EEF6E701D51EF8A00C59360 /* HXH_RACSignal.m */,
+				8EE14CA01D51F3D600751590 /* HXH_RACSubject.h */,
+				8EE14CA11D51F3D600751590 /* HXH_RACSubject.m */,
+				8EE14CA31D51F5AF00751590 /* HXH_RACTuple.h */,
+				8EE14CA41D51F5AF00751590 /* HXH_RACTuple.m */,
+				8EE14CA61D521F8D00751590 /* HXH_RACCommand.h */,
+				8EE14CA71D521F8D00751590 /* HXH_RACCommand.m */,
+				8EE14CA91D52225800751590 /* HXH_RACMulticastConnection.h */,
+				8EE14CAA1D52225800751590 /* HXH_RACMulticastConnection.m */,
+			);
+			path = RACBaseVC;
+			sourceTree = "<group>";
+		};
+		8EEF6E5C1D51EEA400C59360 /* RACLoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF6E5D1D51EEA400C59360 /* LoginSuccessViewController.h */,
+				8EEF6E5E1D51EEA400C59360 /* LoginSuccessViewController.m */,
+				8EEF6E5F1D51EEA400C59360 /* LoginViewController.h */,
+				8EEF6E601D51EEA400C59360 /* LoginViewController.m */,
+				8EEF6E611D51EEA400C59360 /* LoginViewModel.h */,
+				8EEF6E621D51EEA400C59360 /* LoginViewModel.m */,
+			);
+			path = RACLoginVC;
+			sourceTree = "<group>";
+		};
+		8EEF6E631D51EEA400C59360 /* RACRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF6E641D51EEA400C59360 /* DemoItem.h */,
+				8EEF6E651D51EEA400C59360 /* DemoItem.m */,
+				8EEF6E661D51EEA400C59360 /* ViewController.h */,
+				8EEF6E671D51EEA400C59360 /* ViewController.m */,
+			);
+			path = RACRootVC;
 			sourceTree = "<group>";
 		};
 		9B771D5953C75595D05ACA6B /* Frameworks */ = {
@@ -495,15 +557,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ECA74191C06AF0000ECE0AE /* ViewController.m in Sources */,
-				8ECA744C1C070A2000ECE0AE /* RACBase.m in Sources */,
-				8EEF6E4F1D51D10B00C59360 /* RACBaseViewController.m in Sources */,
-				8ECA74521C070D4700ECE0AE /* LoginViewModel.m in Sources */,
-				8ECA744F1C070B7A00ECE0AE /* LoginSuccessViewController.m in Sources */,
-				8EEF6E521D51D47300C59360 /* DemoItem.m in Sources */,
-				8EEF6E4C1D51CF6D00C59360 /* LoginViewController.m in Sources */,
+				8EEF6E6E1D51EEA400C59360 /* ViewController.m in Sources */,
+				8EEF6E681D51EEA400C59360 /* RACBase.m in Sources */,
+				8EEF6E6D1D51EEA400C59360 /* DemoItem.m in Sources */,
 				8ECA74161C06AF0000ECE0AE /* AppDelegate.m in Sources */,
+				8EE14CA51D51F5AF00751590 /* HXH_RACTuple.m in Sources */,
+				8EEF6E6B1D51EEA400C59360 /* LoginViewController.m in Sources */,
+				8EE14CAB1D52225800751590 /* HXH_RACMulticastConnection.m in Sources */,
+				8EE14CA21D51F3D600751590 /* HXH_RACSubject.m in Sources */,
+				8EE14CA81D521F8D00751590 /* HXH_RACCommand.m in Sources */,
+				8EEF6E711D51EF8A00C59360 /* HXH_RACSignal.m in Sources */,
+				8EEF6E6A1D51EEA400C59360 /* LoginSuccessViewController.m in Sources */,
+				8EEF6E6C1D51EEA400C59360 /* LoginViewModel.m in Sources */,
+				8EEF6E691D51EEA400C59360 /* RACBaseViewController.m in Sources */,
 				8ECA74131C06AF0000ECE0AE /* main.m in Sources */,
+				8EE14CAF1D5227A900751590 /* HXH_RACNormalUse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

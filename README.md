@@ -12,3 +12,4 @@
 #### 文件说明
 * ChainProgrammingFunctionalProgrammingDemo --> 编程思想学习Demo，链式编程及函数式编程思想
 * ReactiveCocoa_MVVM_1 --> RAC + MVVM架构，模拟登录页数据逻辑及UI处理Demo
+* ReactiveCocoa_MVVM_2 --> RAC + MVVM架构，一个通用tableViewViewController的解决方案

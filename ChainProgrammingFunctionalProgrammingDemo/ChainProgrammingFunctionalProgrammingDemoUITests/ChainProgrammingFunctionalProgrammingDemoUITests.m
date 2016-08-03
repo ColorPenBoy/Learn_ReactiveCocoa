@@ -1,18 +1,18 @@
 //
-//  _____DemoUITests.m
-//  链式编程_DemoUITests
+//  ChainProgrammingFunctionalProgrammingDemoUITests.m
+//  ChainProgrammingFunctionalProgrammingDemoUITests
 //
-//  Created by colorPen on 15/12/1.
-//  Copyright © 2015年 Bobo. All rights reserved.
+//  Created by colorpen on 16/8/3.
+//  Copyright © 2016年 colorpen. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface _____DemoUITests : XCTestCase
+@interface ChainProgrammingFunctionalProgrammingDemoUITests : XCTestCase
 
 @end
 
-@implementation _____DemoUITests
+@implementation ChainProgrammingFunctionalProgrammingDemoUITests
 
 - (void)setUp {
     [super setUp];

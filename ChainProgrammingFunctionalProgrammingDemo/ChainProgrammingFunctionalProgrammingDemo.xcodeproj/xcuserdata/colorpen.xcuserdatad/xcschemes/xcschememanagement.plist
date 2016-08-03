@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>链式编程_Demo.xcscheme</key>
+		<key>ChainProgrammingFunctionalProgrammingDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8E0CAB661C0D790100A8732F</key>
+		<key>8EEF6DEF1D519DF100C59360</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8E0CAB7F1C0D790100A8732F</key>
+		<key>8EEF6E081D519DF100C59360</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8E0CAB8A1C0D790100A8732F</key>
+		<key>8EEF6E131D519DF100C59360</key>
 		<dict>
 			<key>primary</key>
 			<true/>

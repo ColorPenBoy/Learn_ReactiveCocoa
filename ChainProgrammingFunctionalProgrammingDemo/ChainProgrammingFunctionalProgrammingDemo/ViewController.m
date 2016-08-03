@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  链式编程_Demo
+//  ChainProgrammingFunctionalProgrammingDemo
 //
-//  Created by colorPen on 15/12/1.
-//  Copyright © 2015年 Bobo. All rights reserved.
+//  Created by colorpen on 16/8/3.
+//  Copyright © 2016年 colorpen. All rights reserved.
 //
 
 #import "ViewController.h"
-
 // 链式编程
 #import "NSObject+Calculate.h"
 
@@ -28,7 +27,7 @@
     int result = [NSObject makeCalculate:^(CaculatorMaker *make) {
         make.add(1).add(2).add(3).add(4).divide(5);
     }];
-
+    
     NSLog(@"链式编程 -> %d",result);
     
     
@@ -51,10 +50,12 @@
     
     NSLog(@"函数式编程 -> %d",isEqule);
 
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end

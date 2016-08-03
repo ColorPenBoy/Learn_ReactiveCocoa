@@ -15,9 +15,9 @@
 		8EEF6E031D519DF100C59360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF6E011D519DF100C59360 /* LaunchScreen.storyboard */; };
 		8EEF6E0E1D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E0D1D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoTests.m */; };
 		8EEF6E191D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E181D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoUITests.m */; };
-		8EEF6E2E1D519E1900C59360 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E271D519E1900C59360 /* Calculator.m */; };
-		8EEF6E2F1D519E1900C59360 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E2A1D519E1900C59360 /* CaculatorMaker.m */; };
-		8EEF6E301D519E1900C59360 /* NSObject+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E2C1D519E1900C59360 /* NSObject+Calculate.m */; };
+		8EEF6E391D51B5B600C59360 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E331D51B5B600C59360 /* Calculator.m */; };
+		8EEF6E3A1D51B5B600C59360 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E361D51B5B600C59360 /* CaculatorMaker.m */; };
+		8EEF6E3B1D51B5B600C59360 /* NSObject+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF6E381D51B5B600C59360 /* NSObject+Calculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		8EEF6E141D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainProgrammingFunctionalProgrammingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEF6E181D519DF100C59360 /* ChainProgrammingFunctionalProgrammingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainProgrammingFunctionalProgrammingDemoUITests.m; sourceTree = "<group>"; };
 		8EEF6E1A1D519DF100C59360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EEF6E261D519E1900C59360 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
-		8EEF6E271D519E1900C59360 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
-		8EEF6E291D519E1900C59360 /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
-		8EEF6E2A1D519E1900C59360 /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
-		8EEF6E2B1D519E1900C59360 /* NSObject+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculate.h"; sourceTree = "<group>"; };
-		8EEF6E2C1D519E1900C59360 /* NSObject+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Calculate.m"; sourceTree = "<group>"; };
+		8EEF6E321D51B5B600C59360 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		8EEF6E331D51B5B600C59360 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		8EEF6E351D51B5B600C59360 /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		8EEF6E361D51B5B600C59360 /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		8EEF6E371D51B5B600C59360 /* NSObject+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculate.h"; sourceTree = "<group>"; };
+		8EEF6E381D51B5B600C59360 /* NSObject+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Calculate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 				8EEF6DF71D519DF100C59360 /* AppDelegate.m */,
 				8EEF6DF91D519DF100C59360 /* ViewController.h */,
 				8EEF6DFA1D519DF100C59360 /* ViewController.m */,
-				8EEF6E281D519E1900C59360 /* 函数式编程 */,
-				8EEF6E2D1D519E1900C59360 /* 链式编程 */,
+				8EEF6E311D51B5B600C59360 /* 函数式编程 */,
+				8EEF6E341D51B5B600C59360 /* 链式编程 */,
 				8EEF6DFC1D519DF100C59360 /* Main.storyboard */,
 				8EEF6DFF1D519DF100C59360 /* Assets.xcassets */,
 				8EEF6E011D519DF100C59360 /* LaunchScreen.storyboard */,
@@ -151,26 +151,24 @@
 			path = ChainProgrammingFunctionalProgrammingDemoUITests;
 			sourceTree = "<group>";
 		};
-		8EEF6E281D519E1900C59360 /* 函数式编程 */ = {
+		8EEF6E311D51B5B600C59360 /* 函数式编程 */ = {
 			isa = PBXGroup;
 			children = (
-				8EEF6E261D519E1900C59360 /* Calculator.h */,
-				8EEF6E271D519E1900C59360 /* Calculator.m */,
+				8EEF6E321D51B5B600C59360 /* Calculator.h */,
+				8EEF6E331D51B5B600C59360 /* Calculator.m */,
 			);
-			name = "函数式编程";
-			path = "../../链式编程_Demo/链式编程_Demo/函数式编程";
+			path = "函数式编程";
 			sourceTree = "<group>";
 		};
-		8EEF6E2D1D519E1900C59360 /* 链式编程 */ = {
+		8EEF6E341D51B5B600C59360 /* 链式编程 */ = {
 			isa = PBXGroup;
 			children = (
-				8EEF6E291D519E1900C59360 /* CaculatorMaker.h */,
-				8EEF6E2A1D519E1900C59360 /* CaculatorMaker.m */,
-				8EEF6E2B1D519E1900C59360 /* NSObject+Calculate.h */,
-				8EEF6E2C1D519E1900C59360 /* NSObject+Calculate.m */,
+				8EEF6E351D51B5B600C59360 /* CaculatorMaker.h */,
+				8EEF6E361D51B5B600C59360 /* CaculatorMaker.m */,
+				8EEF6E371D51B5B600C59360 /* NSObject+Calculate.h */,
+				8EEF6E381D51B5B600C59360 /* NSObject+Calculate.m */,
 			);
-			name = "链式编程";
-			path = "../../链式编程_Demo/链式编程_Demo/链式编程";
+			path = "链式编程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,10 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEF6DFB1D519DF100C59360 /* ViewController.m in Sources */,
-				8EEF6E2F1D519E1900C59360 /* CaculatorMaker.m in Sources */,
-				8EEF6E2E1D519E1900C59360 /* Calculator.m in Sources */,
+				8EEF6E3A1D51B5B600C59360 /* CaculatorMaker.m in Sources */,
+				8EEF6E391D51B5B600C59360 /* Calculator.m in Sources */,
 				8EEF6DF81D519DF100C59360 /* AppDelegate.m in Sources */,
-				8EEF6E301D519E1900C59360 /* NSObject+Calculate.m in Sources */,
+				8EEF6E3B1D51B5B600C59360 /* NSObject+Calculate.m in Sources */,
 				8EEF6DF51D519DF100C59360 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +534,7 @@
 				8EEF6E1F1D519DF100C59360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EEF6E201D519DF100C59360 /* Build configuration list for PBXNativeTarget "ChainProgrammingFunctionalProgrammingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +543,7 @@
 				8EEF6E221D519DF100C59360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EEF6E231D519DF100C59360 /* Build configuration list for PBXNativeTarget "ChainProgrammingFunctionalProgrammingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +552,7 @@
 				8EEF6E251D519DF100C59360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

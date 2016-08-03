@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+
+target 'ZZReactiveCocoa' do
+  # use_frameworks!
+
+  pod 'AFNetworking'
+
+  pod 'SDWebImage'
+
+  pod 'ReactiveCocoa'
+
+end

@@ -13,11 +13,11 @@
  
 [Limboy blog](http://limboy.me)
  
-[vimeo - RAC视频](https://vimeo.com/65637501)
+[vimeo - RAC视频](https://vimeo.com/65637501) 
    
-[南峰子 - MVVM RAC Part 1](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-er-:twittersou-suo-shi-li)
+[南峰子 - MVVM RAC Part 1](http://southpeak.github.io/blog/2014/08/08/mvvmzhi-nan-yi-:flickrsou-suo-shi-li)
 
-[南峰子 - MVVM RAC Part 2](http://southpeak.github.io/blog/2014/08/08/mvvmzhi-nan-yi-:flickrsou-suo-shi-li)
+[南峰子 - MVVM RAC Part 2](http://southpeak.github.io/blog/2014/08/02/reactivecocoazhi-nan-er-:twittersou-suo-shi-li)
  
 [简书_吖了个峥（基础篇）](http://www.jianshu.com/p/87ef6720a096)
 

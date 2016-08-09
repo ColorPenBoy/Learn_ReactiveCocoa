@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'HXH_MVVM_RAC' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for HXH_MVVM_RAC
+  pod 'ReactiveCocoa'
+  pod 'objectiveflickr'
+  pod 'LinqToObjectiveC'
+  pod 'SDWebImage'
+
+  target 'HXH_MVVM_RACTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HXH_MVVM_RACUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
